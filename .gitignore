@@ -1,0 +1,29 @@
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# builds
+.next
+out
+build
+dist
+
+# environment — NEVER commit secrets
+.env
+.env.local
+.env.*.local
+.env.production
+
+# local data store (dev persistence) & uploaded assets
+.data/
+public/uploads/
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+yarn-error.log*
+.vercel
+next-env.d.ts
+tsconfig.tsbuildinfo
